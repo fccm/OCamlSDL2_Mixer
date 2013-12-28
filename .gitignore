@@ -1,0 +1,13 @@
+*.[oa]
+*.cm[ioaxt]
+*.cmx[as]
+*.byte
+*.opt
+*.native
+*.bin
+*.exe
+a.out
+*.so
+*.dll
+.*.swp
+*~
