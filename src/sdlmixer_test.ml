@@ -1,7 +1,7 @@
 #load "sdl2_mix.cma"
 
 let () =
-  Sdlmixer.init ();
+  Sdlmixer.init [`MP3];
   Sdlmixer.quit ();
 ;;
 

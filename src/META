@@ -1,0 +1,9 @@
+name = "sdl2_mix"
+description = "bindings to the SDL2_mixer library"
+version = "@VERSION@"
+requires = "sdl2"
+
+archive(byte) = "sdl2_mix.cma"
+archive(native) = "sdl2_mix.cmxa"
+archive(byte,plugin) = "sdl2_mix.cma"
+archive(native,plugin) = "sdl2_mix.cmxs"

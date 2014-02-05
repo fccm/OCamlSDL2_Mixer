@@ -51,13 +51,13 @@ lib: sdl2_mix.cma
 opt: sdl2_mix.cmxa
 
 %.cmi: %.mli
-	$(OCAMLC) -c $<
+	$(OCAMLC) -c $(OCSDLINC) $<
 
 %.cmo: %.ml
-	$(OCAMLC) -c -I +sdl2 $<
+	$(OCAMLC) -c $(OCSDLINC) $<
 
 %.cmx: %.ml
-	$(OCAMLOPT) -c -I +sdl2 $<
+	$(OCAMLOPT) -c $(OCSDLINC) $<
 
 sdlmixer_stub.o: sdlmixer_stub.c
 	$(OCAMLC) -ccopt "-static $(CFLAGS) -g -O " $<
