@@ -130,7 +130,7 @@ caml_Mix_Get_Default_Frequency(value unit)
 CAMLprim value
 caml_Mix_Get_Default_Format(value unit)
 {
-    return Val_int(MIX_DEFAULT_FORMAT);
+    return Val_SDL_AudioFormat(MIX_DEFAULT_FORMAT);
 }
 
 CAMLprim value
