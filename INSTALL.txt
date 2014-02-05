@@ -1,0 +1,20 @@
+=== Linux, Cygwin, and OSX ===
+
+Firstly, make and install OCamlSDL2, making sure to also install the
+stub headers (see OCamlSDL2/INSTALL.txt). Then to make:
+
+$ make
+
+----------------
+
+Install using ocamlfind:
+$ make findinstall
+
+-----------------
+
+Uninstall:
+$ make finduninstall
+
+=== Other Environments ===
+
+Please tell me how to do in other environments.
