@@ -25,53 +25,53 @@ type music
 (* init *)
 
 external init : initflags list -> unit
-  = "caml_Mix_Init"
+  = "caml_SDL_Mix_Init"
 
 external quit : unit -> unit
-  = "caml_Mix_Quit"
+  = "caml_SDL_Mix_Quit"
 
 external open_audio : int -> Sdlaudio.format -> int -> int -> unit
-  = "caml_Mix_Open_Audio"
+  = "caml_SDL_Mix_Open_Audio"
 
 (* music *)
 
 external load_music : string -> music
-  = "caml_Mix_Load_Music"
+  = "caml_SDL_Mix_Load_Music"
 
 external free_music : music -> unit
-  = "caml_Mix_Free_Music"
+  = "caml_SDL_Mix_Free_Music"
 
 external play_music : music -> int -> unit
-  = "caml_Mix_Play_Music"
+  = "caml_SDL_Mix_Play_Music"
 
 (* defines getters *)
 
 external get_major_version : unit -> int
-  = "caml_Mix_Get_Major_Version"
+  = "caml_SDL_Mix_Get_Major_Version"
 
 external get_minor_version : unit -> int
-  = "caml_Mix_Get_Minor_Version"
+  = "caml_SDL_Mix_Get_Minor_Version"
 
 external get_patchlevel : unit -> int
-  = "caml_Mix_Get_Patchlevel"
+  = "caml_SDL_Mix_Get_Patchlevel"
 
 external get_channels : unit -> int
-  = "caml_Mix_Get_Channels"
+  = "caml_SDL_Mix_Get_Channels"
 
 external get_default_frequency : unit -> int
-  = "caml_Mix_Get_Default_Frequency"
+  = "caml_SDL_Mix_Get_Default_Frequency"
 
 external get_default_format : unit -> Sdlaudio.format
-  = "caml_Mix_Get_Default_Format"
+  = "caml_SDL_Mix_Get_Default_Format"
 
 external get_default_channels : unit -> int
-  = "caml_Mix_Get_Default_Channels"
+  = "caml_SDL_Mix_Get_Default_Channels"
 
 external get_max_volume : unit -> int
-  = "caml_Mix_Get_Max_Volume"
+  = "caml_SDL_Mix_Get_Max_Volume"
 
 external get_channel_post : unit -> int
-  = "caml_Mix_Get_Channel_Post"
+  = "caml_SDL_Mix_Get_Channel_Post"
 
 external get_effectsmaxspeed : unit -> int
-  = "caml_Mix_Get_Effectsmaxspeed"
+  = "caml_SDL_Mix_Get_Effectsmaxspeed"
