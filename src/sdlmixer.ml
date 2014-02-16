@@ -13,13 +13,13 @@
 
 
 type initflags = [
-| `FLAC
-| `MOD
-| `MODPLUG
-| `MP3
-| `OGG
-| `FLUIDSYNTH
-]
+  | `FLAC
+  | `MOD
+  | `MODPLUG
+  | `MP3
+  | `OGG
+  | `FLUIDSYNTH
+  ]
 
 type music
 
