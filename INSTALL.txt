@@ -17,4 +17,4 @@ $ make finduninstall
 
 === Other Environments ===
 
-Please tell me how to do in other environments.
+Please tell us how to do in other environments.
