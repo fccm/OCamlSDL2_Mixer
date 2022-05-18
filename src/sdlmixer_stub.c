@@ -26,10 +26,10 @@ sdlmixinit_val(value v)
 {
     if (v == caml_hash_variant("FLAC"))       return MIX_INIT_FLAC;
     if (v == caml_hash_variant("MOD"))        return MIX_INIT_MOD;
-    if (v == caml_hash_variant("MODPLUG"))    return MIX_INIT_MODPLUG;
     if (v == caml_hash_variant("MP3"))        return MIX_INIT_MP3;
     if (v == caml_hash_variant("OGG"))        return MIX_INIT_OGG;
-    if (v == caml_hash_variant("FLUIDSYNTH")) return MIX_INIT_FLUIDSYNTH;
+    if (v == caml_hash_variant("MID"))        return MIX_INIT_MID;
+    if (v == caml_hash_variant("OPUS"))       return MIX_INIT_OPUS;
     return 0x00000000;
 }
 
