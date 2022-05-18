@@ -9,11 +9,12 @@ OCamlSDL2_Mixer brings you access to the SDL2_mixer library from OCaml.
 
 ## Current State
 
-These relays are currently in a very early draft state.
-You may expect to get segfaults.
-These pieces of code are currently called "relays"
-and not bindings while there is currently no memory
-management and no integration with the garbage collector.
+This binding is currently in a very early state.
+
+## Version
+
+This version of the binding is known to work with sdl2_mixer version 2.0.4
+and OCaml version 4.13.1
 
 ## Relicensing
 
