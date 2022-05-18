@@ -1,7 +1,10 @@
 === Linux, Cygwin, and OSX ===
 
-Firstly, make and install OCamlSDL2, making sure to also install the
-stub headers (see OCamlSDL2/INSTALL.txt). Then to make:
+Before to be able to compile this binding you should compile and install
+OCamlSDL2, and in particular you should not forget to install the
+stub headers from OCamlSDL2 with:  make findinstall_h
+
+Then you can run this command in this directory:
 
 $ make
 
